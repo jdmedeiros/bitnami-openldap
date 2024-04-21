@@ -1,0 +1,40 @@
+# File: 20-groups.ldif
+
+# Group: oriental
+dn: cn=oriental,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: groupOfNames
+cn: oriental
+member: cn=miguel,ou=oriental,ou=groups,ou=users,dc=enta,dc=pt
+member: cn=maria,ou=oriental,ou=groups,ou=users,dc=enta,dc=pt
+
+# Group: central
+dn: cn=central,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: groupOfNames
+cn: central
+member: cn=terceira,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+member: cn=pico,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+member: cn=faial,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+member: cn=jorge,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+member: cn=graciosa,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+
+# Group: ocidental
+dn: cn=ocidental,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: groupOfNames
+cn: ocidental
+member: cn=corvo,ou=ocidental,ou=groups,ou=users,dc=enta,dc=pt
+member: cn=flores,ou=ocidental,ou=groups,ou=users,dc=enta,dc=pt
+
+# Group: projectx
+dn: cn=projectx,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: groupOfNames
+cn: projectx
+member: cn=miguel,ou=oriental,ou=groups,ou=users,dc=enta,dc=pt
+member: cn=terceira,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+member: cn=corvo,ou=ocidental,ou=groups,ou=users,dc=enta,dc=pt
+
+# Group: projecty
+dn: cn=projecty,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: groupOfNames
+cn: projecty
+member: cn=maria,ou=oriental,ou=groups,ou=users,dc=enta,dc=pt
+member: cn=flores,ou=ocidental,ou=groups,ou=users,dc=enta,dc=pt
