@@ -1,0 +1,30 @@
+# File: 10-org.ldif
+
+# Domain
+dn: dc=enta,dc=pt
+objectClass: top
+objectClass: domain
+dc: enta
+
+# Organizational Unit for users
+dn: ou=users,dc=enta,dc=pt
+objectClass: organizationalUnit
+ou: users
+
+# Organizational Unit for groups
+dn: ou=groups,ou=users,dc=enta,dc=pt
+objectClass: organizationalUnit
+ou: groups
+
+# Specific Organizational Units for groups
+dn: ou=oriental,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: organizationalUnit
+ou: oriental
+
+dn: ou=central,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: organizationalUnit
+ou: central
+
+dn: ou=ocidental,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: organizationalUnit
+ou: ocidental
