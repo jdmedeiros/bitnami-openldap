@@ -1,0 +1,76 @@
+# File: 15-users.ldif
+
+# users in Oriental
+dn: cn=miguel,ou=oriental,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: inetOrgPerson
+cn: miguel
+sn: Miguel
+uid: miguel
+userPassword: miguel
+mail: miguel@enta.pt
+
+dn: cn=maria,ou=oriental,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: inetOrgPerson
+cn: maria
+sn: Maria
+uid: maria
+userPassword: maria
+mail: maria@enta.pt
+
+# users in Central
+dn: cn=terceira,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: inetOrgPerson
+cn: terceira
+sn: Terceira
+uid: terceira
+userPassword: terceira
+mail: terceira@enta.pt
+
+dn: cn=pico,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: inetOrgPerson
+cn: pico
+sn: Pico
+uid: pico
+userPassword: pico
+mail: pico@enta.pt
+
+dn: cn=faial,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: inetOrgPerson
+cn: faial
+sn: Faial
+uid: faial
+userPassword: faial
+mail: faial@enta.pt
+
+dn: cn=jorge,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: inetOrgPerson
+cn: jorge
+sn: Jorge
+uid: jorge
+userPassword: jorge
+mail: jorge@enta.pt
+
+dn: cn=graciosa,ou=central,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: inetOrgPerson
+cn: graciosa
+sn: Graciosa
+uid: graciosa
+userPassword: graciosa
+mail: graciosa@enta.pt
+
+# users in Ocidental
+dn: cn=corvo,ou=ocidental,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: inetOrgPerson
+cn: corvo
+sn: Corvo
+uid: corvo
+userPassword: corvo
+mail: corvo@enta.pt
+
+dn: cn=flores,ou=ocidental,ou=groups,ou=users,dc=enta,dc=pt
+objectClass: inetOrgPerson
+cn: flores
+sn: Flores
+uid: flores
+userPassword: flores
+mail: flores@enta.pt
