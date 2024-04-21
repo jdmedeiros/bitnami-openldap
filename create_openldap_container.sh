@@ -6,7 +6,7 @@ docker volume ls
 
 read -rsn1 -p"Ready? - press any key to continue";echo
 
-docker run --detach --rm --name openldap \
+docker run --detach --restart always --name openldap \
   --publish 389:1389 --publish 636:1636 \
   --env LDAP_ROOT=dc=enta,dc=pt \
   --env LDAP_ADMIN_DN=cn=admin,dc=enta,dc=pt \
